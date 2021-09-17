@@ -1,14 +1,13 @@
 import "./index.css"
+import './App.css'
 import Header from './Components/Header';
 import Banner from "./Components/Banner";
 import MediumCard from './Components/MediumCard';
 import { Col, Row } from "antd";
-import { DatePicker } from 'antd';
 import 'antd/dist/antd.css';
 
 import b1 from './Images/b1.svg'
 import b2 from "./Images/b2.svg"
-import b3 from "./Images/b3.svg"
 import b4 from "./Images/bl5.svg"
 import SwipeCard from './Components/SwipeCard';
 import frame1 from "./Images/Frame1.svg"
@@ -17,9 +16,7 @@ import frame3 from "./Images/Frame3.svg"
 import frame4 from "./Images/Frame4.svg"
 import frame5 from "./Images/Frame5.svg"
 import frame6 from "./Images/Frame6.svg"
-import frame7 from "./Images/Frame7.svg"
-import frame8 from "./Images/Frame8.svg"
-import frame9 from "./Images/Frame9.svg"
+
 
 
 function App() {

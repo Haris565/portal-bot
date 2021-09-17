@@ -12,9 +12,10 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
-    background-image: url("./Images/bg.svg");
+    /* background-image: url("./Images/bg.svg");
     background-size: cover;
-    background-repeat: repeat-y;
+    background-repeat: repeat-y; */
+    background-color:'#111';
 
 }
 
