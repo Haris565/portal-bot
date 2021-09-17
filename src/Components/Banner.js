@@ -1,7 +1,7 @@
 import bgtitle from "../Images/bgtitle.svg"
 function Banner() {
     return (
-        <div className='relative h-screen bg-gray-700' >
+        <div className='relative h-screen bg-gray-800' >
             
             <div className='absolute top-20 ml-20'>
                 <img src={bgtitle} alt="" />
