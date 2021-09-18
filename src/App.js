@@ -16,17 +16,18 @@ import frame3 from "./Images/Frame3.svg"
 import frame4 from "./Images/Frame4.svg"
 import frame5 from "./Images/Frame5.svg"
 import frame6 from "./Images/Frame6.svg"
+import Footer from "./Components/Footer";
 
 
 
 function App() {
   return (
-    <div className="App">
+    <div className="bg-gray-800">
         <Header />  
         <Banner />
-        <main className='max-w-7xl mx-auto px-8 sm:px-16'>
+        <main className='max-w-7xl mx-auto px-8 sm:px-16 bg-gray-800'>
           
-
+{/* 
         <section className=''>
           <h2 className='font-light text-3xl text-gray-200 pl-4' >
             Portal bot is a platform for <span style={{color:"deeppink"}}>automatic trading</span> <br /> so you can enjoy the maximum profit
@@ -42,10 +43,10 @@ function App() {
               <MediumCard image={b4} text='Lorem impsum'/>
             </Col>
           </Row>
-        </section>
+        </section> */}
    
 
-        <section>
+        <section className=''>
           <h2 className='font-light text-3xl text-gray-200 pl-4 mt-10' >
             Portal bot <span style={{color:"deeppink"}}>features</span>
           </h2>
@@ -86,6 +87,7 @@ function App() {
         </section>
 
         </main>
+        <Footer />
 
    
         
